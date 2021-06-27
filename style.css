@@ -1,0 +1,85 @@
+.title{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.sub-title{
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+.content{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    color: black;
+    opacity: 0.6;
+    
+}
+.sub-title1{
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.month{
+    float: left;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.content1{
+    clear: both;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.button{
+    width: 250px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  
+}
+.list{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+    opacity: 0.8;
+}
+.author{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.link{
+    text-decoration: none;
+}
+
+/* MD Screen */
+@media screen and (min-width:720px) {
+    .mt-5{
+        margin-left: 180px;
+    }
+    .button{
+        width: 150px;
+        height: 50px;
+    }
+    .author{
+        margin-left: 120px;
+    }
+    
+}
+
+/* LG Screen */
+@media screen and (min-width:960px) {
+    .button{
+        width: 250px;
+        height: 50px;
+    }
+    .author{
+        margin-left: 0px;
+    }
+    
+}
